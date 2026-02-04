@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ideas in Communications</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Ideas in Communications</h1>
+        <p>
+          A repository of ideas, open problems, and collaboration opportunities
+          in wireless communications.
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdhBs-dY8kEU6CYZ40LJOKO3jejVTJh1DZLXwSFb6hDdZU71g/viewform"
+          class="primary-btn"
+          target="_blank"
+          >Submit New Idea</a
+        >
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="toolbar">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            onkeyup="filterAndRender()"
+            placeholder="Search ideas (e.g. 6G, MIMO)..."
+          />
+        </div>
+
+        <div class="filter-group">
+          <select id="categoryFilter" onchange="filterAndRender()">
+            <option value="All">All Categories</option>
+            <option value="Physical Layer">Physical Layer</option>
+            <option value="Networking">Networking</option>
+            <option value="Security">Security</option>
+            <option value="Signal Processing">Signal Processing</option>
+          </select>
+
+          <button class="sort-btn" onclick="toggleSort()">
+            <span id="sortIcon">⇅</span> Sort by Date
+          </button>
+        </div>
+      </div>
+
+      <div id="marketplace-grid"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
