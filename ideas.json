@@ -1,0 +1,232 @@
+[
+  {
+    "title": "Sub-THz Beamforming for 6G",
+    "category": "Physical Layer",
+    "date": "2025-01-15",
+    "contributor": "Dr. Elena Rossi",
+    "email": "e.rossi@univ-tech.edu",
+    "description": "A proposal for low-complexity beam alignment in high-mobility 6G scenarios using hybrid precoding architectures.",
+    "references": [
+      "IEEE Trans. on Wireless, Vol. 72, 2024",
+      "6G Fundamentals (Wiley, 2023)"
+    ]
+  },
+  {
+    "title": "Deep Learning for MIMO Detection",
+    "category": "Signal Processing",
+    "date": "2025-01-18",
+    "contributor": "Akash Kumar",
+    "email": "akash.k@research-lab.io",
+    "description": "Replacing traditional MMSE with unfolding neural networks for faster decoding in Massive MIMO systems.",
+    "references": [
+      "Journal of Signal Processing, Issue 4, 2024"
+    ]
+  },
+  {
+    "title": "RIS-Aided Secure Communications",
+    "category": "Security",
+    "date": "2025-01-20",
+    "contributor": "Dr. Sarah Chen",
+    "email": "s.chen@telecom-poly.edu",
+    "description": "Using Reconfigurable Intelligent Surfaces to create physical layer security nulls at eavesdropper locations.",
+    "references": [
+      "IEEE Communications Letters, Feb 2024",
+      "Physical Layer Security for 6G (Springer, 2023)"
+    ]
+  },
+  {
+    "title": "URLLC in Industrial IoT",
+    "category": "Networking",
+    "date": "2025-01-22",
+    "contributor": "Marcus Weber",
+    "email": "m.weber@industrial-logic.de",
+    "description": "Optimizing grant-free access for ultra-reliable low-latency communications in smart factory environments.",
+    "references": [
+      "ACM SIGCOMM Workshop on IoT, 2023"
+    ]
+  },
+  {
+    "title": "Integrated Sensing and Comm (ISAC)",
+    "category": "Physical Layer",
+    "date": "2025-01-25",
+    "contributor": "Prof. Liam O'Neill",
+    "email": "liam.oneill@wireless-center.ie",
+    "description": "Dual-purpose waveforms for 6G radar and data transmission using OFDM-based joint signaling.",
+    "references": [
+      "IEEE Journal on Selected Areas in Communications, 2024",
+      "Sensing-as-a-Service whitepaper, 2023"
+    ]
+  },
+  {
+    "title": "Blockchain for Spectrum Sharing",
+    "category": "Networking",
+    "date": "2025-01-28",
+    "contributor": "Fatima Al-Sayed",
+    "email": "fatima.as@spectrum-data.net",
+    "description": "A decentralized database using smart contracts for dynamic licensed shared access between satellite and terrestrial users.",
+    "references": [
+      "Nature Electronics, Jan 2025"
+    ]
+  },
+  {
+    "title": "Energy Harvesting in B5G",
+    "category": "Green Tech",
+    "date": "2025-02-01",
+    "contributor": "David Smith",
+    "email": "dsmith@eco-wireless.org",
+    "description": "Simultaneous wireless information and power transfer (SWIPT) optimization for zero-energy IoT sensors.",
+    "references": [
+      "Green Communications Journal, Vol. 12, 2024",
+      "Energy Harvesting for 6G (Academic Press, 2022)"
+    ]
+  },
+  {
+    "title": "Quantum Key Distribution (QKD)",
+    "category": "Security",
+    "date": "2025-02-03",
+    "contributor": "Dr. Kenji Tanaka",
+    "email": "k.tanaka@quantum-labs.jp",
+    "description": "Satellite-to-ground quantum secure communication protocols resistant to atmospheric turbulence.",
+    "references": [
+      "Quantum Info Review, 2024"
+    ]
+  },
+  {
+    "title": "Open RAN Optimization",
+    "category": "Networking",
+    "date": "2025-02-05",
+    "contributor": "James Miller",
+    "email": "jmiller@oran-alliance.com",
+    "description": "AI-based RIC (RAN Intelligent Controller) for multi-vendor interoperability and traffic steering.",
+    "references": [
+      "O-RAN Specifications v4.0",
+      "Wireless Network Automation, 2023"
+    ]
+  },
+  {
+    "title": "Cell-Free Massive MIMO",
+    "category": "Physical Layer",
+    "date": "2025-02-08",
+    "contributor": "Maria Garcia",
+    "email": "m.garcia@tech-institute.es",
+    "description": "Distributed access point coordination to eliminate cell edges and provide uniform coverage.",
+    "references": [
+      "IEEE Trans. on Signal Processing, 2024"
+    ]
+  },
+  {
+    "title": "Visible Light Communication (VLC)",
+    "category": "Signal Processing",
+    "date": "2025-02-10",
+    "contributor": "Dr. Hans Bauer",
+    "email": "h.bauer@photonics.de",
+    "description": "Integrating Li-Fi with existing LED lighting for secure indoor high-speed data hotspots.",
+    "references": [
+      "VLC Research Handbook, 2023",
+      "Optics Express, Vol. 31, 2024"
+    ]
+  },
+  {
+    "title": "Non-Orthogonal Multiple Access (NOMA)",
+    "category": "Physical Layer",
+    "date": "2025-02-12",
+    "contributor": "Liu Wei",
+    "email": "wei.liu@telecom-china.cn",
+    "description": "Power-domain NOMA for massive connectivity in dense 6G cells using Successive Interference Cancellation.",
+    "references": [
+      "IEEE Wireless Mag, 2024"
+    ]
+  },
+  {
+    "title": "Edge AI for V2X",
+    "category": "Networking",
+    "date": "2025-02-14",
+    "contributor": "Sophie Dubois",
+    "email": "s.dubois@automotive-edge.fr",
+    "description": "Low-latency federated learning for autonomous vehicle coordination at the network edge.",
+    "references": [
+      "V2X Standard Vol. 2, 2024",
+      "AI in Vehicular Networks (Wiley, 2023)"
+    ]
+  },
+  {
+    "title": "Millimeter Wave Beam Training",
+    "category": "Physical Layer",
+    "date": "2025-02-16",
+    "contributor": "Dr. Aris Pappas",
+    "email": "apappas@aegean-research.gr",
+    "description": "Fast codebook search algorithms for 28GHz mobility using hierarchical beam search.",
+    "references": [
+      "IEEE Globecom 2023 Proceedings"
+    ]
+  },
+  {
+    "title": "Physical Layer Authentication",
+    "category": "Security",
+    "date": "2025-02-18",
+    "contributor": "Yuki Hiroshi",
+    "email": "y.hiroshi@cyber-sec.co.jp",
+    "description": "Using CSI (Channel State Information) fingerprints to authenticate wireless devices without overhead.",
+    "references": [
+      "Journal of Cyber Security, 2024",
+      "RF Fingerprinting (Artech House, 2022)"
+    ]
+  },
+  {
+    "title": "Molecular Communications",
+    "category": "Signal Processing",
+    "date": "2025-02-20",
+    "contributor": "Prof. Alice Carter",
+    "email": "acarter@biotech-wireless.com",
+    "description": "Information transfer using chemical signals for nanomedicine and targeted drug delivery monitoring.",
+    "references": [
+      "IEEE Trans. on NanoBioscience, 2024"
+    ]
+  },
+  {
+    "title": "LoRaWAN Scalability Models",
+    "category": "Networking",
+    "date": "2025-02-22",
+    "contributor": "Samuel Jackson",
+    "email": "sam.j@iot-base.uk",
+    "description": "Reducing collisions in ultra-long range LPWAN deployments through adaptive spreading factor selection.",
+    "references": [
+      "IoT Journal, Vol. 15, 2024"
+    ]
+  },
+  {
+    "title": "Full-Duplex Relay Networks",
+    "category": "Physical Layer",
+    "date": "2025-02-24",
+    "contributor": "Dr. Igor Smirnov",
+    "email": "ismirnov@radio-physics.ru",
+    "description": "Self-interference cancellation techniques for simultaneous TX/RX in 5G-Advanced relay nodes.",
+    "references": [
+      "Radio Engineering Journal, 2023",
+      "Full-Duplex Systems (IEEE Press, 2024)"
+    ]
+  },
+  {
+    "title": "MAC Layer Slicing",
+    "category": "Networking",
+    "date": "2025-02-26",
+    "contributor": "Nadia Volkov",
+    "email": "n.volkov@cloud-ran.io",
+    "description": "Resource isolation for mission-critical vs. broadband traffic in 5G-Advanced network slicing.",
+    "references": [
+      "Network Slicing Whitepaper v2.1"
+    ]
+  },
+  {
+    "title": "Underwater Acoustic Channels",
+    "category": "Signal Processing",
+    "date": "2025-02-28",
+    "contributor": "Dr. Robert Ballard",
+    "email": "r.ballard@ocean-science.org",
+    "description": "Orthogonal signal design for high-multipath oceanic environments for underwater drone swarms.",
+    "references": [
+      "IEEE Oceanic Engineering, 2024",
+      "Underwater Communications (Springer, 2023)"
+    ]
+  }
+]
