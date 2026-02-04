@@ -1,0 +1,204 @@
+:root {
+  --primary: #1a2a6c;
+  --accent: #f39c12;
+  --bg: #f8fafc;
+  --text: #334155;
+  --card-bg: #ffffff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.primary-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform 0.2s;
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Toolbar & Controls */
+.container {
+  max-width: 1100px;
+  margin: -40px auto 40px;
+  padding: 0 20px;
+}
+
+.toolbar {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  padding: 12px 20px;
+  width: 300px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+}
+
+.filter-group {
+  display: flex;
+  gap: 10px;
+}
+
+select,
+.sort-btn {
+  padding: 10px 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  color: var(--text);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Marketplace Grid */
+#marketplace-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  border: 1px solid #eef2f6;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent);
+}
+
+.card .category {
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card .date {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: var(--primary);
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #64748b;
+  flex-grow: 1;
+}
+
+/* Reference Styling */
+.ref-section {
+  margin: 15px 0;
+  padding-top: 15px;
+  border-top: 1px dashed #e2e8f0;
+}
+
+.ref-section h4 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.ref-section ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+/* Footer & Contact Button */
+.card-footer {
+  margin-top: auto; /* Pushes footer to bottom of card */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contributor {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.contact-btn {
+  text-align: center;
+  background: #f8fafc;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.contact-btn:hover {
+  background: var(--primary);
+  color: white;
+}
